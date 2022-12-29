@@ -1,8 +1,12 @@
 
-function ItemListContainer(){
+function ItemListContainer({mensaje}){
     return(
-
+        <>
         <p>ItemListContainer is Working!!</p>
+        <br/>
+        {mensaje}
+        </>
+        
     )
 }
 

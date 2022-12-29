@@ -1,12 +1,14 @@
 import { useState } from 'react'
-import './App.css'
 
-import './Components/Navbar'
-import Navbar from './Components/Navbar'
+import './Components/Navbarr'
+import Navbar from './Components/Navbarr'
 import './Components/ItemListContainer'
 import ItemListContainer from './Components/ItemListContainer'
 import './Components/logo'
 import Logo from './Components/logo'
+
+//import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,11 +17,11 @@ function App() {
 
     <div className="App">
 
-      <Navbar></Navbar>
+      <Navbar/>
 
-      <Logo></Logo>
+      <Logo/>
 
-      <ItemListContainer></ItemListContainer>
+      <ItemListContainer mensaje='nueva pagina'/>
 
     </div>
   )

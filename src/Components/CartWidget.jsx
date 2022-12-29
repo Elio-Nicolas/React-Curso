@@ -1,12 +1,11 @@
 
-
+import { IoMdCart } from 'react-icons/io';
 
 function CartWidget(){
 
     return(
     <>
-    <p>CartWidget working!!</p>
-    
+    <IoMdCart/>
     </>
     )
 }
